@@ -3,12 +3,11 @@ import React, { Component } from 'react';
 class ItemBook extends Component {
 
   constructor(props){
-      super(props);
-    }
+    super(props);
+  }
 
   onDelete = () => {
     this.props.onDelete(this.props.id);
-    console.log(this.props.id);
   }
 
   render() {
